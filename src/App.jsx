@@ -1,9 +1,10 @@
-import WeatherApp from "./WeatherApp";
+import Weather from "./Weather";
+import './App.css';
 
 function App() {
   return (
     <>
-      <WeatherApp />
+      <Weather />
     </>
   )
 }

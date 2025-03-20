@@ -2,7 +2,7 @@ import SearchBox from "./SearchBox.jsx";
 import InfoBox from "./InfoBox.jsx";
 import { useState } from "react";
 
-export default function WeatherApp() {
+export default function Weather() {
     const [weatherInfo, setWeatherInfo] = useState({
         city: "Delhi",
         feelslike: 24.5,
@@ -18,7 +18,7 @@ export default function WeatherApp() {
     }
     return (
         <div>
-            <h1 style={{textAlign:"center"}}>Weather App</h1>
+            <h1 style={{textAlign:"center"}}>SkyCast</h1>
             <SearchBox updateInfo = {updateInfo}/>
             <InfoBox Info ={weatherInfo}/>
         </div>
